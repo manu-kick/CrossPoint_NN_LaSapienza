@@ -23,15 +23,26 @@ You can open the V3_train_custom_lightning.ipynb to train the models, you will f
 
 
 ## Pretrained model
-Here you find our pretrained model
-//TODO -> tabella con i link delle diverse combinazioni
+Here you find our pretrained model, in every folder you find the point model needed for the evalutation (you will find also the image feature extractor)
+https://drive.google.com/drive/folders/1VyUy-Z8mAkm4YRnibZNwCEnQ10De8cmN?usp=sharing
 
 ## Evaluate the models
+You can use the eval_ssl file to evaluate the model, you find the instruction
 
 ## Our report
-You find at this link the report generated with Wandb in which we discuss some observation about the experiments.
+You find in eval_ssl some observations about the results we get
 
-## Acknowledgements
-Our code borrows from:
-- the crosspoint paper repository https://github.com/MohamedAfham/CrossPoint that borrows from DGCNN
-- the PCT implementation repository https://github.com/qinglew/PointCloudTransformer/tree/2212086a6cce42b9652ff25b7e2aaf06f9b2e1a5
+## Acknowledgements % references
+Our code borrows heavily from:
+[DGCNN](https://github.com/WangYueFt/dgcnn) 
+[PCT]https://github.com/qinglew/PointCloudTransformer
+REFERENCES
+[1] CrossPoint: Self-Supervised Cross-Modal Contrastive Learning for 3D Point Cloud Understanding
+Mohamed Afham, Isuru Dissanayake, Dinithi Dissanayake, Amaya Dharmasiri, Kanchana Thilakarathna, Ranga Rodrigo
+[2] PCT: Point cloud transformer
+Meng-Hao Guo, Jun-Xiong Cai, Zheng-Ning Liu, Tai-Jiang Mu, Ralph R. Martin, Shi-Min Hu
+[3] Dynamic Graph CNN for Learning on Point Clouds
+Yue Wang, Yongbin Sun, Ziwei Liu, Sanjay E. Sarma, Michael M. Bronstein, Justin M. Solomon
+[4] Vision Transformers: State of the Art and Research Challenges, Bo-Kai Ruan, Hong-Han Shuai, Wen-Huang Cheng		
+[5] Deep Residual Learning for Image Recognition
+Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun
